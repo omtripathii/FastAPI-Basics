@@ -1,0 +1,50 @@
+__pycache__/
+fastapi-env/
+venv/
+.DS_Store
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+.idea/
+.vscode/
+*.log
+*.sqlite3
+*.db
+__pycache__/
+coverage/
+htmlcov/
+.mypy_cache/
+.pytest_cache/
+.cache/
+celerybeat-schedule
+instance/
+staticfiles/
+media/
+
+# Docker
+*.env.docker
+*.dockerignore
+Dockerfile
+.docker/
+
+# FastAPI-specific
+*.log
+*.pid
+*.sock
+
+# Local IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+site/
